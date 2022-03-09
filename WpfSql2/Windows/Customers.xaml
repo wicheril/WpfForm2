@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfSql2.Customers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSql2"
+        mc:Ignorable="d"
+        Title="Customers" Height="450" Width="800">
+    <Grid x:Name="LoadForm" Loaded="LoadForm_Loaded">
+        <DataGrid x:Name="CustomersView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,87" MouseLeftButtonUp="getCurrentCell"/>
+        <Button x:Name="Update" Content="Update" HorizontalAlignment="Left" Margin="25,365,0,0" VerticalAlignment="Top" Click="Update_Click" Height="46" Width="81"/>
+        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="138,378,0,0" VerticalAlignment="Top" Click="Add_Click" Height="33" Width="92"/>
+        <Button x:Name="Delete" Content="DELETE" HorizontalAlignment="Left" Margin="530,378,0,0" VerticalAlignment="Top" Height="36" Width="66" Click="Delete_Click"/>
+
+    </Grid>
+</Window>

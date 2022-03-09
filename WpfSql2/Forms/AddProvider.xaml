@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfSql2.Forms.AddProvider"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSql2.Forms"
+        mc:Ignorable="d"
+        Title="AddProvider" Height="450" Width="411">
+    <Grid>
+        <TextBox x:Name="CommodityBox" HorizontalAlignment="Left" Margin="183,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Height="36" Visibility="Visible"/>
+        <Label Content="Товар" HorizontalAlignment="Left" Margin="40,44,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="183,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Height="36"/>
+        <Label Content="Комания" HorizontalAlignment="Left" Margin="40,111,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="AdressBox" HorizontalAlignment="Left" Margin="183,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Height="36" Visibility="Visible"/>
+        <Label Content="Адресс" HorizontalAlignment="Left" Margin="40,179,0,0" VerticalAlignment="Top" Width="103"/>
+        <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Left" Margin="31,346,0,0" VerticalAlignment="Top" Height="44" Width="362" Click="AddButton_Click"/>
+        <TextBox x:Name="PriceBox" HorizontalAlignment="Left" Margin="182,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="36" Visibility="Visible"/>
+        <Label Content="Цена" HorizontalAlignment="Left" Margin="40,243,0,0" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Телефон" HorizontalAlignment="Left" Margin="41,300,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.486,0.59"/>
+        <TextBox x:Name="PhoneBox" HorizontalAlignment="Left" Margin="183,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="36" Visibility="Visible"/>
+
+    </Grid>
+</Window>

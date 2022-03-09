@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3c07356-f05f-485e-a48f-34d3bebe6735": {
+      "ProjectGuid": "b3c07356-f05f-485e-a48f-34d3bebe6735",
+      "DisplayName": "WpfSql2",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
